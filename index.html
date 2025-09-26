@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Feedback Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>💬 Share Your Feedback</h1>
+  </header>
+
+  <!-- Part 1: CSS Animations -->
+  <section id="part1">
+    <h2>Dynamic Buttons</h2>
+    <button class="fancy-btn">Hover Over Me</button>
+  </section>
+
+  <!-- Part 2: JavaScript Functions -->
+  <section id="part2">
+    <h2>Feedback Form</h2>
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Enter your name" required>
+      <textarea id="feedback" placeholder="Write your feedback..." required></textarea>
+      <p id="charCount">0/200 characters</p>
+      <button type="submit" class="fancy-btn">Submit Feedback</button>
+    </form>
+    <p id="greeting-output"></p>
+  </section>
+
+  <!-- Part 3: JS + CSS -->
+  <section id="part3">
+    <h2>Submission Result</h2>
+    <div id="popup" class="popup">🎉 Thank you for your feedback!</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
